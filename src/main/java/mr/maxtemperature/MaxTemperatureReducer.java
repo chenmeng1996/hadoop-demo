@@ -1,4 +1,4 @@
-package mr;
+package mr.maxtemperature;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -10,10 +10,7 @@ import org.apache.hadoop.mapred.Reporter;
 import java.io.IOException;
 import java.util.Iterator;
 
-/**
- * @author 陈濛
- * @date 2020/4/16 10:15 下午
- */
+
 public class MaxTemperatureReducer extends MapReduceBase
         implements Reducer<Text, IntWritable, Text, IntWritable> {
 

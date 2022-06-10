@@ -1,4 +1,4 @@
-package mr;
+package mr.maxtemperature;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
@@ -10,10 +10,6 @@ import org.apache.hadoop.mapreduce.Job;
 
 import java.io.IOException;
 
-/**
- * @author 陈濛
- * @date 2020/4/16 10:30 下午
- */
 public class MaxTemperature {
 
     /**
