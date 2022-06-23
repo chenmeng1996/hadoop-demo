@@ -1,4 +1,4 @@
-package mr;
+package mr.maxtemperature;
 
 import fs.FileSystemHelper;
 import org.junit.jupiter.api.Test;
